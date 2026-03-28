@@ -1,0 +1,76 @@
+/* .container {
+	background: pink;
+} */
+
+
+/* *means all (universal selector) */
+* {
+	font-family: "Roboto", sans-serif;
+	/* text-align: center;*/
+}
+
+/* tag selector */
+h1, p {
+	font-family: "Montserrat", sans-serif;
+}
+
+
+body {
+	background-color: #ffffff !important;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='101' height='101' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23C2E0FA' fill-opacity='0.54' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
+}
+
+
+/* id selector */
+/* # - is used to select an element using its id*/
+#profile {
+	height: 350px;
+	width: 250px;
+
+	/* border radius - to add curvy edges to create a circular shapes*/
+	border-radius: 50%;
+
+	margin-bottom: 20px;
+}
+
+#landing {
+	/* landing section to be 80% height of the screen */
+	height: 90vh;
+	/* background: red; */
+
+	/* to change alignment direction of the landing section's elements */
+	display: flex;
+	flex-direction: column;
+
+	/* to center both horizontally and vertically*/
+	justify-content: center;
+	align-items: center;
+}
+
+footer {
+	background-color: black;
+
+	padding: 10px;
+	
+	/* to center element in footer */
+	text-align: center;
+	
+}
+
+i {
+	/* to make the icon bigger */
+	font-size: 25px;
+
+	/* to make the icon white color contrasting to background */
+	color: white;
+
+	/* adds space between icons */
+	/* margin is used to add space between elements */
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+i:hover {
+	color: lightblue;
+}
+
